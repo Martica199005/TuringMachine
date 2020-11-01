@@ -1,6 +1,3 @@
-dict={'val1':' ','val2':'#','val3':'UPPERCASE'}
-
-rules={'rule1':('0','A','1','B','R'),'rule2':('2','B','3','A','L'), 'rule3':('1','B','1','B','L'),'rule4':('2','D','1','F','L'), 'rule5':('0','B','4','D','R'),'rule6':('4','B','2','A','R'),'rule7':('3','A','5','A','H')}
 
 tasks=['step','accept','k_accept']
 
