@@ -128,7 +128,52 @@ bool_k_accept_1 bool_k_accept_2… bool_k_accept_n
 
 
 
+import sys
+read_line=[]
 
+for line in sys.stdin:
+    print(line)
+    read_line.append(line)
+    
+print(read_line)
+print(len(read_line))
 
+for item in read_line:
+    print(type(line))
+    
 
+step
+
+(#,0,ABA) (D,2,BBB) (#J,1,BAT) (#AA,2,ZXY) (A,0,BD) (CO,2,DE) (CA,0,A) (K,2,DC)
+
+5
+
+-
+
+0 A 1 B R
+
+1 B 1 B L
+
+1 A 3 A H
+
+2 B 3 A H
+
+0 D 2 A R
+
+2 D 1 F L
+
+0 B 4 B H
+['step\n', '(#,0,ABA) (D,2,BBB) (#J,1,BAT) (#AA,2,ZXY) (A,0,BD) (CO,2,DE) (CA,0,A) (K,2,DC)\n', '5\n', '-\n', '0 A 1 B R\n', '1 B 1 B L\n', '1 A 3 A H\n', '2 B 3 A H\n', '0 D 2 A R\n', '2 D 1 F L\n', '0 B 4 B H']
+11
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
 
